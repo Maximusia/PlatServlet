@@ -1,0 +1,28 @@
+# Fichiers compiles Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Dossier de build / IDE
+/build/
+/out/
+/bin/
+/target/
+
+# Configuration IDE
+.vscode
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+
+# Dependances ecternes generees
+/lib/*.jar
