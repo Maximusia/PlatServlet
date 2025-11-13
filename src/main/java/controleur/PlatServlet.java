@@ -26,7 +26,7 @@ public class PlatServlet extends HttpServlet{
             // Creation des listes de plats
             plats.add(new Plat("Vary", "http://localhost/L2/S3/progsys/assets-cnd/vary.jpeg", 1000.00));
             plats.add(new Plat("Ravitoto", "http://localhost/L2/S3/progsys/assets-cnd/ravitoto.jpeg", 2000.00));
-            plats.add(new Plat("Lasary", "http://localhost/L2/S3/progsys/assets-cnd/lasary.jpeg"));
+            plats.add(new Plat("Lasary", "http://localhost/L2/S3/progsys/assets-cnd/lasary.jpeg", 2000.00));
 
             // Stockage dans le context 
             // ServletContext context = this.getServletContext();

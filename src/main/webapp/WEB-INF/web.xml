@@ -9,7 +9,7 @@
         <servlet-class>controleur.PlatServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Platervlet</servlet-name>
+        <servlet-name>PlatServlet</servlet-name>
         <url-pattern>/plats<url-pattern>
     </servlet-mapping>
 </web-app>
