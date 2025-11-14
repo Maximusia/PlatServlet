@@ -44,7 +44,7 @@ public class PlatServlet extends HttpServlet{
             // Envoi a la JSP
             req.setAttribute("clientNom", clientNom);
             req.setAttribute("plats", plats);
-            RequestDispatcher dispatcher = req.getRequestDispatcher("listePlats.jsp");
+            RequestDispatcher dispatcher = req.getRequestDispatcher("/listePlats.jsp");
             dispatcher.forward(req, res);
         }
 }
